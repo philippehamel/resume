@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 1in;
+        line-height: 1.5;
+        font-size: 8pt;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 18pt;
+      }
+      header p {
+        margin: 5px 0;
+        font-size: 12pt;
+      }
+      section {
+        margin-bottom: 25px;
+      }
+      h2 {
+        border-bottom: 1px solid #000;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-size: 10pt;
+        text-transform: uppercase;
+      }
+      .job {
+        margin-bottom: 10px;
+      }
+      .job h3 {
+        margin: 0;
+        font-size: 10pt;
+      }
+      .job p.role {
+        font-style: italic;
+        margin: 2px 0;
+        font-size: 10pt;
+      }
+      .job p.dates {
+        margin: 0 0 10px 0;
+        font-size: 10pt;
+        color: #555;
+      }
+      ul {
+        margin-top: 5px;
+        padding-left: 20px;
+      }
+      ul li {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Philippe Hamel</h1>
+      <p>
+        philippehamel85@gmail.com | 418 264-9239 |
+        <a href="https://www.linkedin.com/in/philippe-hamel-63a888153/"
+          >Linked In</a
+        >
+      </p>
+    </header>
+
+    <section>
+      <h2>Résumé</h2>
+      <p>
+        Je suis un développeur passionné par la conception de systèmes fiables,
+        avec une emphase données, le développement backend et l'infrastructure.
+        J’aime travailler sur des solutions évolutives, efficaces et
+        maintenables.
+      </p>
+      <p>
+        Je cherche toujours à améliorer les performances, automatiser les
+        processus et permettre à mon équipe de livrer plus rapidement et
+        intelligemment. Je suis motivé par le désir de résoudre des problèmes
+        complexes avec un code propre, pragmatique et une architecture robuste.
+      </p>
+      <p>
+        Toujours en apprentissage, toujours curieux — je crois que l'ingenérie
+        logiciel ne consiste pas seulement à écrire du code, mais à comprendre
+        les systèmes de bout en bout et à concevoir des solutions avec un
+        maximum de valeur.
+      </p>
+    </section>
+
+    <section>
+      <h2>Expérience</h2>
+
+      <div class="job">
+        <h3>Ticketmaster</h3>
+        <p class="role">Développeur Full-Stack</p>
+        <p class="dates">Juin 2024 – Présent | Québec, Canada (Hybride)</p>
+        <ul>
+          <li>
+            Développement et maintenance de TM1 Reports, une application web BI
+            orientée client permettant aux utilisateurs d'accéder et de
+            visualiser leurs données.
+          </li>
+          <li>
+            Migration des rapports d'affaires et des flux de données backend
+            d’un système existant vers une nouvelle plateforme, modernisant à la
+            fois les composants d'interface utilisateur (React.js) et les
+            services Spring Boot.
+          </li>
+          <li>
+            Contribution aux pipelines CI/CD pour se conformer aux normes SOC 2
+            (2 backend + 1 frontend) en utilisant GitLab et Maven, supportant le
+            déploiement automatisé sur les environnements de développement et
+            production.
+          </li>
+          <li>
+            Collaboration avec des équipes pluridisciplinaires pour livrer des
+            outils de reporting sécurisés et évolutifs pour les clients
+            d'entreprise.
+          </li>
+          <li>
+            Technologies : Java, Spring Boot, React.js, Apollo GraphQL, Maven,
+            GitLab, MySQL, Oracle DB, Prometheus, Grafana, HTML/CSS.
+          </li>
+        </ul>
+        <p class="role">Développeur de Données</p>
+        <p class="dates">Janv. 2023 – Juin 2024 | Québec, Canada (Hybride)</p>
+        <ul>
+          <li>
+            Conception et maintenance de pipelines de données batch et streaming
+            (Apache Spark sur Databricks, ingestion Kafka) pour supporter
+            l’analytique en temps réel et les rapports.
+          </li>
+          <li>
+            Gestion de la livraison des données aux clients VIP via une API REST
+            sécurisée, permettant l'accès direct à de vastes ensembles de
+            données d'événements et de ventes.
+          </li>
+          <li>
+            Provisionnement et gestion de l'infrastructure cloud avec Terraform,
+            incluant clusters de traitement de données, outils de monitoring et
+            gestion des accès.
+          </li>
+          <li>
+            Travail sur des ensembles de données comptant des millions de
+            transactions clients, supportant des cas d'utilisation tels que les
+            rapports de revenus et le suivi opérationnel.
+          </li>
+          <li>
+            Technologies : Python, Scala, Spring Boot, Databricks, Spark,
+            GitLab, Prometheus, Grafana, Docker, Kubernetes, Cassandra,
+            ScyllaDB, MySQL, Oracle DB, SQL, NoSQL.
+          </li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Promutuel Assurance</h3>
+        <p class="role">Développeur</p>
+        <p class="dates">Juin 2019 – Mai 2022 | Québec, Québec, Canada</p>
+        <ul>
+          <li>
+            Développement et maintenance de l'API de tarification supportant les
+            lignes d'assurance personnelles et commerciales, composante clée
+            dans les processus de tarification et de souscription des polices.
+          </li>
+          <li>
+            Conception et amélioration d'outils internes pour les actuaires afin
+            de mesurer l'exposition aux risques, en collaboration étroite avec
+            les équipes BI, Actuariat et Science des données.
+          </li>
+          <li>
+            Participation aux décisions relatives à la "tech stack" et conduite
+            de refontes majeures, améliorant la maintenabilité et l’évolutivité
+            du code.
+          </li>
+          <li>
+            Optimisation de l’orchestration et des temps d’exécution pour
+            l'outils de mesure "extent of exposure", réduisant significativement
+            les délais d’évaluation des risques.
+          </li>
+          <li>
+            Technologies : Spring Boot, Python, Guidewire, IBM ODM, XML, SOAP.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="job">
+      <h3>
+        Ministère du Conseil exécutif (MCE) / Ministère des Transports du Québec
+        (MTQ)
+      </h3>
+      <p class="role">Analyste de Données</p>
+      <p class="dates">2016 – 2019 | Québec, Québec, Canada</p>
+      <ul>
+        <li>
+          Support au programme provincial d'électrification des transports et au
+          programme de subventions pour les Premières Nations par l'analyse et
+          la production de rapports de données.
+        </li>
+        <li>
+          Automatisation de la compilation des données, des analyses
+          statistiques et du développement de tableaux de bord pour favoriser la
+          prise de décisions basée sur les données.
+        </li>
+        <li>
+          Production d’analyses exploitables utilisées par les décideurs
+          gouvernementaux pour surveiller la performance des programmes et
+          allouer efficacement le financement.
+        </li>
+        <li>
+          Technologies : Excel VBA, SQL, R, Power BI, Tableau, Modélisation
+          Statistique.
+        </li>
+      </ul>
+    </div>
+
+    <section>
+      <h2>Éducation</h2>
+      <div class="job">
+        <h3>Université Laval</h3>
+        <p class="role">Baccalauréat, Économique</p>
+        <p class="dates">2017</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Compétences</h2>
+      <ul>
+        <li>Langages de Programmation : Java, Python, Scala, SQL</li>
+        <li>Frameworks : Spring Boot, React.js, Apache Spark</li>
+        <li>Outils : GitLab, Terraform, Docker, Kubernetes</li>
+        <li>Bases de Données : MySQL, Oracle DB, Cassandra, ScyllaDB</li>
+        <li>Plateformes Cloud : AWS (S3, EC2), Databricks</li>
+        <li>Supervision : Prometheus, Grafana</li>
+      </ul>
+    </section>
+  </body>
+</html>
